@@ -1,0 +1,55 @@
+# id:
+
+inputs:
+  id:
+    label: ['string']
+    secondaryFiles: ['string', 'Expression']
+    streamable: ['boolean']
+    doc: ['string', 'arraystring']
+    format: ['string', 'arraystring']
+    inputBinding:
+      loadContents: ['boolean']
+      position: ['int']
+      prefix: ['string']
+      separate: ['boolean']
+      itemSeparator: ['string']
+      valueFrom: ['string', 'Expression']
+      shellQuote: 'boolean'
+    default: ['Any']
+    type: ['null', 'boolean', 'int', 'long', 'float', 'double', 'string', 'File', 'Directory']
+  
+outputs:
+  id: 
+    glob: ['string', 'Expression', 'arraystring', 'arrayExpression']
+    loadContents: ['boolean']
+    outputEval: ['string', 'Expression']
+
+class: ['string']
+
+requirements:
+  - class: ['InlineJavascriptRequirement', 'SchemaDefRequirement', 'DockerRequirement', 'SoftwareRequirement', 'InitialWorkDirRequirement', 'EnvVarRequirement', 'ShellCommandRequirement', 'ResourceRequirement']
+
+hints:
+  - class: ['InlineJavascriptRequirement', 'SchemaDefRequirement', 'DockerRequirement', 'SoftwareRequirement', 'InitialWorkDirRequirement', 'EnvVarRequirement', 'ShellCommandRequirement', 'ResourceRequirement']
+
+label: ['string']
+
+doc: ['string']
+
+cwlVersion: ['string']
+
+baseCommand: ['string', 'arraystring']
+
+arguments: ['arraystring', 'arrayExpression'] #CommandLineBinding
+
+stdin: ['string', 'arraystring']
+
+stderr: ['string', 'arraystring']
+
+stdout: ['string', 'arraystring']
+
+successCodes: ['int']
+
+temporaryFailCodes: ['int']
+
+permanentFailCodes: ['int']
