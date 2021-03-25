@@ -51,7 +51,7 @@ python-debian==0.1.27
 python-systemd==231
 pythonz-bd==1.11.4
 pyxdg==0.25
-PyYAML==3.12
+PyYAML==5.4
 reportlab==3.3.0
 requests==2.18.4
 resumable-urlretrieve==0.1.5
