@@ -52,7 +52,7 @@ python-systemd==231
 pythonz-bd==1.11.4
 pyxdg==0.25
 PyYAML==3.12
-reportlab==3.3.0
+reportlab==3.5.55
 requests==2.18.4
 resumable-urlretrieve==0.1.5
 ruamel.std.argparse==0.8.1
